@@ -86,3 +86,42 @@
   justify-content: center;
   color: white;
 }
+/* mobile */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .header .Revs-your {
+    margin-right: 0px;
+  }
+  .menu-center {
+    display: block;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .images-left {
+    width: 80%;
+  }
+  .images-right {
+    width: 100%;
+  }
+  .best-seller-row {
+    flex-direction: column;
+  }
+  .best-seller-row-left {
+    width: 100%;
+  }
+  .best-seller-row-right {
+    width: 100%;
+  }
+  .best-seller-row-right img {
+    width: 100%;
+  }
+  .desc {
+    text-align: justify;
+  }
+}
